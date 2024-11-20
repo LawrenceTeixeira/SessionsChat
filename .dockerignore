@@ -1,0 +1,54 @@
+# flyctl launch added from .gitignore
+# Ignorar arquivos temporários, de compilação e sensíveis
+
+# Arquivos de configuração local e temporários
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# MonoDevelop e arquivos gerados automaticamente
+*.userprefs
+mono_crash.*
+
+# Pastas de build
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+logs/
+
+# Cache do Visual Studio
+.vs/
+Generated Files/
+
+# Resultados de testes
+TestResult*
+buildLog.*
+
+# Arquivos de cobertura
+*.coverage
+coverage*.json
+coverage*.xml
+coverage*.info
+
+# Outros arquivos gerados ou de backup
+*.tmp
+*.log
+*.bak
+*.cache
+
+# Ignorar dependências
+node_modules/
+*.nupkg
+*.snupkg
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Arquivos locais do Fly.io
+.fly/
+fly.toml
